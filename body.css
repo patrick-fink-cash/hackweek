@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4; /* Sets body background color to light grey */
+}
+
+header {
+    background: #fff;
+    padding: 20px; /* Matches the article padding */
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: center;
+}
+
+header #logo {
+    height: 50px;
+    margin-right: 20px; /* Space between logo and nav */
+    margin-left: 20px; /* Space between logo and nav */   
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Ensure nav starts right next to the logo */
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between nav items */
+    display: inline-block; /* Ensures better alignment control than inline */
+}
+
+h1 {
+    font-size: 24px;
+    color: #000;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%; /* Controls the width relative to the viewport */
+    max-width: 800px; /* Maximum width */
+    margin: 20px auto; /* Centers container and adds vertical spacing */
+    background-color: #fff; /* White background for the content */
+    padding: 20px; /* Padding around the content */
+    border: none; /* No border around the container */
+}
+
+article {
+    background-color: #fff;
+    padding: 20px; /* Ensures padding is consistent throughout */
+    border: none;
+    box-shadow: none;
+}
+
+footer {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
